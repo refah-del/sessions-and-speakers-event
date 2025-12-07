@@ -1,0 +1,23 @@
+{
+	"meta":{
+		"version": "v1",
+		"app_name": "sessions_and_speskrs-event",
+		"log_prefix": "sessions_and_speakers_event"
+	},
+	"database":{
+		"pool":{
+			"name": "app_name_db_boot",
+			"size": 10,
+			"reset_session": true,
+			"use_pure": true
+		},
+		"connection":{
+			"config":{
+				"database": "sessions_and_speakers_event",
+				"user": "Refah222",
+				"host": "localhost",
+				"port": 3306
+			}
+		}
+	}
+}
