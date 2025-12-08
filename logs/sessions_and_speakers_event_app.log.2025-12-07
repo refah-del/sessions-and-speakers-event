@@ -1,0 +1,63 @@
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:26:08,944:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:26:08,944:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'Refah222', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:26:08,945:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 14:26:09,065:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'Refah222'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 14:26:09,066:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "Refah222", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 14:26:09,067:__init__:It works!
+DEBUG:UserInterface:2025-12-07 14:26:09,067:__init__:It works!
+DEBUG:UserInterface:2025-12-07 14:26:09,068:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:35:11,211:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:35:11,212:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 14:35:11,212:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 14:35:11,336:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 14:35:11,336:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 14:35:11,337:__init__:It works!
+DEBUG:UserInterface:2025-12-07 14:35:11,337:__init__:It works!
+DEBUG:UserInterface:2025-12-07 14:35:11,337:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 20:56:01,245:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 20:56:01,245:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 20:56:01,245:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 20:56:01,316:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 20:56:01,317:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "password123!", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 20:56:01,317:__init__:It works!
+DEBUG:UserInterface:2025-12-07 20:56:01,317:__init__:It works!
+DEBUG:UserInterface:2025-12-07 20:56:01,317:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:00:35,564:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:00:35,564:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:00:35,564:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:00:35,641:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:00:35,641:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 21:00:35,642:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:00:35,642:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:00:35,642:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:10:35,773:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:10:35,774:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:10:35,774:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:10:35,891:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:10:35,892:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 21:10:35,892:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:10:35,893:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:10:35,893:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:53:22,280:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:53:22,280:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 21:53:22,280:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:53:22,358:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 21:53:22,358:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 21:53:22,359:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:53:22,359:__init__:It works!
+DEBUG:UserInterface:2025-12-07 21:53:22,359:start: User interface started!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 22:02:32,310:__init__:It works!
+DEBUG:MySQLPersistenceWrapper:2025-12-07 22:02:32,311:__init__: DB Connection Config Dict: {'database': 'sessions_event_db', 'user': 'root ', 'host': 'localhost', 'port': 3306}
+DEBUG:MySQLPersistenceWrapper:2025-12-07 22:02:32,311:Creating connection pool...
+ERROR:MySQLPersistenceWrapper:2025-12-07 22:02:32,396:_initialize_database_connection_pool: Problem creating connection pool: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+ERROR:MySQLPersistenceWrapper:2025-12-07 22:02:32,396:_initialize_database_connection_pool: Check DB cnfg:
+{"pool": {"name": "sessions_event_db_pool", "size": 10, "reset_session": true, "use_pure": true}, "connection": {"config": {"database": "sessions_event_db", "user": "root ", "password": "Refah222", "host": "localhost", "port": 3306}}}
+DEBUG:AppServices:2025-12-07 22:02:32,396:__init__:It works!
+DEBUG:UserInterface:2025-12-07 22:02:32,396:__init__:It works!
+DEBUG:UserInterface:2025-12-07 22:02:32,396:start: User interface started!
