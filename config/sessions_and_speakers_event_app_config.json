@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "version": "v1",
+        "app_name": "sessions_and_speakers_event",
+        "log_prefix": "sessions_and_speakers_event"
+    },
+
+    "database": {
+        "pool": {
+            "name": "sessions_event_db_pool",
+            "size": 10,
+            "reset_session": true,
+            "use_pure": true
+        },
+
+        "connection": {
+            "config": {
+                "database": "sessions_event_db",
+                "user": "root ",
+                "password": "Refah222",
+                "host": "localhost",
+                "port": 3306
+            }
+        }
+    }
+}
+
+	

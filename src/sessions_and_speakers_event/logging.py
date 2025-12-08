@@ -2,7 +2,7 @@
 
 import logging
 import logging.handlers
-from application_name.settings import Settings
+from sessions_and_speakers_event.settings import Settings
 import os
 
 class LoggingService():
